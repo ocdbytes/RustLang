@@ -10,7 +10,7 @@ fn main() {
     let third: &i32 = &v1[2];
     let third_func_way: Option<&i32> = v1.get(2);
     match third_func_way {
-        Some(third_func_way) => println!("The third element is : {third}"),
+        Some(_third_func_way) => println!("The third element is : {third}"),
         None => println!("There is no third element"),
     }
 

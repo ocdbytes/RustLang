@@ -20,7 +20,7 @@ fn main() {
     // * changing types
 
     let space = "    "; // string
-    let space = space.len(); // number
+    let _space = space.len(); // number
 
     // * No error : It saves space in memory
 
@@ -50,8 +50,8 @@ fn main() {
     // Array
 
     let a = [1, 2, 3, 4, 5]; // dynamic size
-    let b: [i32; 5] = [1, 2, 3, 4, 5]; // defined size
-    let c = [3; 5]; // [3,3,3,3,3]
+    let _b: [i32; 5] = [1, 2, 3, 4, 5]; // defined size
+    let _c = [3; 5]; // [3,3,3,3,3]
     let y = a[0];
     println!("first of a : {y}");
 }

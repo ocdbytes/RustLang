@@ -1,3 +1,6 @@
+pub mod advmatch;
+pub mod advmatchExercise;
+pub mod derivemacro;
 pub mod r#impl;
 pub mod main2;
 pub mod ownership;
@@ -158,6 +161,14 @@ fn main() {
     // -------------------------------------> strings
     println!("-------------------------------------> strings");
     ruststrings::main();
+    // -------------------------------------> derive
+    println!("-------------------------------------> derive");
+    derivemacro::main();
+    // -------------------------------------> advance match
+    println!("-------------------------------------> advance match");
+    advmatch::main();
+    println!("-------------------------------------> advance match exercise");
+    advmatchExercise::main();
 }
 
 fn display_name(f_name: String, l_name: String) {

@@ -3,6 +3,7 @@ pub mod advmatchExercise;
 pub mod derivemacro;
 pub mod r#impl;
 pub mod main2;
+pub mod optionfunctionality;
 pub mod ownership;
 pub mod ruststrings;
 pub mod rustvectors;
@@ -169,6 +170,9 @@ fn main() {
     advmatch::main();
     println!("-------------------------------------> advance match exercise");
     advmatchExercise::main();
+    // -------------------------------------> option
+    println!("-------------------------------------> option");
+    optionfunctionality::main();
 }
 
 fn display_name(f_name: String, l_name: String) {

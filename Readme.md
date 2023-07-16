@@ -38,3 +38,5 @@ Concepts :
 - [Error Handling](./error_handling/)
   - Panic mode
   - Error Kind
+- [Options](./options_rust/)
+  - Options
